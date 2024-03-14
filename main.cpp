@@ -6,11 +6,11 @@ using namespace std;
 
 int main()
 {
-    vector<string> msg {"Goodbye", "World"};
+    vector<string> msg {"Hello", "World"};
 
     for (const string& word : msg)
     {
-        cout << word << " ";
+        cout << word << ", ";
     }
     cout << endl;
 }
